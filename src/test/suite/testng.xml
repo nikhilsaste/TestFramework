@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SecurePay WebUi Test" allow-return-values="true" parallel="false" thread-count="2">
+
+    <test name="Pointsbet UI and API tests">
+        <classes>
+
+            <class name="pointsbet.com.ui.TC001_Signup_Login_DepositMoney"/>
+            <class name="pointsbet.com.api.TC001_AccountsAvailableAPI_SuccessCode_200"/>
+            <class name="pointsbet.com.api.TC002_AccountAPI_SuccessCode_200"/>
+            <class name="pointsbet.com.api.TC003_AuthTokenAPI_SuccessCode_200"/>
+            <class name="pointsbet.com.api.TC004_SummaryAPI_SuccessCode_200"/>
+            <class name="pointsbet.com.api.TC005_DepositPaymentAPI_SuccessCode_200"/>
+
+        </classes>
+    </test>
+
+</suite>
